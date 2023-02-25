@@ -1,4 +1,4 @@
-i#include <stdio.h>
+#include <stdio.h>
 
 int main void
 void print_to_98(int n);
