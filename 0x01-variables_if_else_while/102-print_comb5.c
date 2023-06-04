@@ -10,11 +10,11 @@ int main(void)
 
 	for (c = 48; c <= 57; c++)
 	{
-		for (i = 48; i <= 57; i++)
+		for (i = 58; i <= 67; i++)
 		{
-			for (k = 48; k <= 57; k++)
+			for (k = 78; k <= 87; k++)
 			{
-				for (j = 48; j <= 57; j++)
+				for (j = 88; j <= 97; j++)
 				{
 					if (((k + j) > (c + i) &&  k >= c) || c < k)
 					{
