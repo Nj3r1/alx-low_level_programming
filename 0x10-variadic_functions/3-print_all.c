@@ -6,14 +6,15 @@
  *
  * Return: Void, nothing
  */
-void print_all(const char *const format, ...)
+void print_all(const char * const format, ...)
 {
 	identifier ids[] = {
 		{"c", print_c},
 		{"i", print_i},
 		{"f", print_f},
 		{"s", print_s},
-		{NULL, NULL}};
+		{NULL, NULL}
+	};
 	va_list ap;
 	int i, j;
 	char *separator = "";
